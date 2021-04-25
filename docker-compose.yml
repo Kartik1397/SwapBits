@@ -21,6 +21,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "4000:4000"
+      - "4001:4001"
     volumes:
       - "./server:/server"
       - /server/node_modules
